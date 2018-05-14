@@ -16,15 +16,16 @@ h1 {
     color: #000;
 }
 hr.bottom {
+    clear: both;
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
-    border-top: medium double #333;
-    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    color: rgba(0, 0, 0, .4);
     text-align: center;
 }
 hr.bottom:after {
-    content: "img/small-logo.png";
+    content: url("img/small-logo.png");
     display: inline-block;
     position: relative;
     top: -0.7em;
@@ -32,23 +33,53 @@ hr.bottom:after {
     padding: 0 0.25em;
     background: white;
 }
-#print {
+
+hr.slash {
+        height: 8px;
+        background: url("img/hr-slash.png") repeat-x 0 0;
+        border: 0;
+    }
+    
+
+
+#print-container {
+    display: inline;
+    margin-left: 125px;
     text-transform: uppercase;
     text-align: right;
-}
-p.sub-meta {
-    text-transform: uppercase;
+    font-size: 0.8em;
     -webkit-margin-before: 0;
     font-family: 'Oswald', sans-serif;
     color: rgba(0, 0, 0, .4);
 }
+#sub-meta-container {
+    display: inline-block;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    -webkit-margin-before: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, .4);
+}
+
 button {
+    display: inline;
+    float: right;
+    font-size: 1.1em;
+    margin-top: 20px;
+    padding: 14px 28px;
+    border-radius: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-family: 'Oswald', san-serif;
     text-transform: uppercase;
     color: #fff;
-    background-color: rgb(158, 91, 53);
+    background-color: #b37651;
 }
+
 .footer-text {
     text-align: center;
+    font-size: .8em;
     color: rgba(0, 0, 0, .4);
 }
 #recipe-card{
@@ -62,13 +93,14 @@ button {
 }
 ul {
 list-style-type: none;
+-webkit-margin-before: 0;
 padding: 0;
 
 }
 li {
-    padding-left: 1.3em;
-    font-size: 1.2em;
-    -webkit-margin-before: 0;
+padding-left: 1.3em;
+font-size: 1.2em;
+-webkit-margin-before: 0;
 }
 li:before{
 content: "\f00c";
@@ -79,8 +111,26 @@ width: 1.3em;
 
 }
 #logo{
-    font-family: 'Yellowtail', cursive;
-    font-size: 3em;
+font-family: 'Yellowtail', cursive;
+font-size: 3.5em;
+-webkit-margin-after: 0;
 }
+#logo-subhead {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .4);
+}
+strong {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #000;
+}
+#author img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 15px;
 
 
+}
