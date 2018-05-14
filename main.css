@@ -1,0 +1,12 @@
+body {
+    border: 1px solid black;
+    width: 960px;
+    margin: 0 auto;
+}
+.header {
+    border: 1px solid black;
+    display: flex;
+}
+.uppercase {
+    text-transform: uppercase;
+}
