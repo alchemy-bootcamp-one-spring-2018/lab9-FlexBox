@@ -1,3 +1,9 @@
+body {
+    width: 720px;
+    margin: auto;
+
+}
+
 /* Section 1 */
 
 #logo {
@@ -10,7 +16,7 @@ h1 {
     text-indent: 5px;
     text-align: left;
     padding: 0;
-    margin: 5px;
+    margin: 9px;
 }
 
 #slogan {
@@ -25,4 +31,14 @@ hr {
     height: 6px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+}
+
+#icons {
+    position: fixed;
+    right: 0;
+    margin: 1px;
+}
+
+#rss {
+    margin-left: 10px;
 }
