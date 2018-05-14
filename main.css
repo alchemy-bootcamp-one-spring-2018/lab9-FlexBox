@@ -1,12 +1,58 @@
 body {
     border: 1px solid black;
-    width: 960px;
+    width: 1360px;
     margin: 0 auto;
 }
 .header {
     border: 1px solid black;
     display: flex;
+    height: 100px;
+}
+#delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+}
+#bestfoodblog {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    opacity: ;
+}
+h1 {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+h2 {
+    margin: 0px;
+}
+.content-box1 {
+    border: 1px solid black;
+    max-height: 70px;
+    display: flex;
+    flex-flow: column wrap;
+}
+p {
+    font-family: serif;
+    font-size: 20px;
+    text-indent: 20px;
 }
 .uppercase {
     text-transform: uppercase;
+}
+.content-box1 {
+    border: 1px solid black;
+}
+button {
+    width: 70px;
+    height: 27px;
+    text-align: right;
+    color: rgba(124, 121, 121, 0.397);
+    background-image: url("images/print-icon.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 45px;
+    opacity: 0.6;
 }
