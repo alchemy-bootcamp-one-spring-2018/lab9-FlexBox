@@ -1,0 +1,12 @@
+#container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#left-ingredients input:checked ~ .strike {
+    text-decoration: line-through;
+}
+#right-ingredients input:checked ~ .strike {
+    text-decoration: line-through;
+}
+    
