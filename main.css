@@ -1,0 +1,26 @@
+body {
+    
+}
+header {
+    font-size: 16pt;
+    font-family: cursive;
+}
+header#silverware {
+    display: flex;
+    justify-content: flex-start;
+}
+p#blog {
+    font-size: 10pt;
+}
+p {
+    text-indent: 20pt
+    
+}
+div.socialLinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    border: 5px double;
+}
