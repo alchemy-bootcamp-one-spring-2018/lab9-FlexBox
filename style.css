@@ -1,0 +1,28 @@
+/* Section 1 */
+
+#logo {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    text-indent: 5px;
+    text-align: left;
+    padding: 0;
+    margin: 5px;
+}
+
+#slogan {
+    text-indent: 5px;
+    text-align: left;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
