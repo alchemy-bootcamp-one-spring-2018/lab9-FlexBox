@@ -1,7 +1,61 @@
+/****** Typography *******/
+
 #logotype {
     font-family: 'Yellowtail', cursive;
+    font-size: 1.5em;
+    color: black;
+}
+
+#tagline {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    font-size: .3em;
+    color: #444;
 }
 
 h1 {
     font-family: 'Oswald' , sans-serif;
 }
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+    color: #838383;
+}
+
+#content-title h2 {
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    font-size: .3em;
+    color: #838383;
+}
+
+#main-content p {
+    text-align: left;
+    text-indent: 1.5em;
+}
+
+#ingredients {
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    color: #838383;
+}
+
+#author-name {
+    font-weight: bold;
+    color: #444;
+}
+
+/**** graphics and dividers ****/
+
+button {
+    
+}
+
+hr {
+    border-width: 4px;
+    border-style: solid;
+    color: #838383;
+}
+
+/**** layout ****/
+
