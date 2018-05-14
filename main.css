@@ -1,0 +1,53 @@
+
+
+main {
+    
+}
+
+.container-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+    border-bottom: 10px solid blue;
+}
+#left-nav {
+    display: flex;
+    justify-content: flex-start;
+    
+        
+    }
+#left-nav-delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 34px;
+}
+    
+
+ul {
+    list-style: none;  
+}
+
+.social-media-icon {
+    margin-right: 2px;
+}
+
+#icon-rss {
+    margin-left: 8px;
+    margin-right:2px;
+}
+
+.instructions {
+    font-size: 20px;
+    color: rgb(102, 101, 101);
+    
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+   
+
+}
+#choc-pizza {
+    
+
+}
