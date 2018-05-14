@@ -93,3 +93,20 @@ hr {
     align-content: center;
 }
 
+#recipe {
+    text-align: justify;
+}
+
+/* Section 4 */
+
+#list {
+    columns: 2 auto;
+    background-image: url='/lab-assets/list-bg.png';
+    height: 200px;
+}
+
+#ingredients {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    list-style-type: none;
+}
