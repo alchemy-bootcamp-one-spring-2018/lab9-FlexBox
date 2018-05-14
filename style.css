@@ -1,0 +1,49 @@
+body {
+    padding: 50px 125px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* h1 {
+    margin: 0;
+} */
+
+.logo {
+    width: 40%;
+}
+
+.icon-small {
+    width: 60%;
+}
+
+.icon-small img {
+    float: right;
+    padding-left: 2px;
+}
+
+#pint {
+    padding-right: 5px;
+}
+
+/* https://stackoverflow.com/questions/20391156/multiple-lines-of-text-next-to-image-css-html */
+.logo img {
+    float: left;
+    padding-right: 5px;
+}
+
+header h1 {
+    display: inline;
+}
+
+header p {
+    margin: 0;
+}
+
+#subtitle {
+    font-size: 10px;
+}
