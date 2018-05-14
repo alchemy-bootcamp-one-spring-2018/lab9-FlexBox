@@ -1,3 +1,5 @@
+/* "Delicious" font is Yellowtail, and the ingredient list font is Patrick Hand, both are google fonts */
+
 body {
     width: 720px;
     margin: auto;
@@ -12,19 +14,25 @@ body {
     justify-content: flex-start;
 }
 
-h1 {
+#blog-name {
+    font-family: 'Yellowtail', cursive;
+    font-size: 28px;
     text-indent: 5px;
     text-align: left;
     padding: 0;
-    margin: 9px;
+    margin-bottom: -6px;
 }
 
-#slogan {
+#tagline {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: flex-end;
     text-indent: 5px;
     text-align: left;
     font-size: 10px;
-    padding: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+
 }
 
 hr {
@@ -33,12 +41,17 @@ hr {
     border: 0;
 }
 
-#icons {
-    position: fixed;
-    right: 0;
-    margin: 1px;
+#icon-pos {
+    float: right;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.icons {
+    margin-left: 2px;
 }
 
 #rss {
     margin-left: 10px;
 }
+
