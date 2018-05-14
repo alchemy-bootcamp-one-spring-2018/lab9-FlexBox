@@ -1,3 +1,9 @@
+body {
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
 h1 {
     color: red;
 }
@@ -17,4 +23,46 @@ hr.bottom:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+}
+#print {
+    text-transform: uppercase;
+    text-align: right;
+}
+p.sub-meta {
+    text-transform: uppercase;
+
+}
+button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(158, 91, 53);
+}
+.footer-text {
+    text-align: center;
+    color: rgba(0, 0, 0, .4);
+}
+#recipe-card{
+    background-image: url("img/list-bg.png");
+    width: 100%;
+    background-repeat: repeat-y;
+    background-size: 96.5%;
+    font-family: ;
+    column-count: 2;
+    padding: 20px;
+}
+ul {
+list-style-type: none;
+padding: 0;
+
+}
+li {
+    padding-left: 1.3em;
+}
+li:before{
+content: "\f00c";
+font-family: FontAwesome;
+display: inline-block;
+margin-left: -1.3em;
+width: 1.3em;
+
 }
