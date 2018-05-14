@@ -1,7 +1,18 @@
 body {
     background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 section {
+    flex-direction: column;
+}
+
+#list {
     display: flex;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
 }
