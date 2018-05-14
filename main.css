@@ -1,0 +1,30 @@
+#topOfPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+#socialMediaButtons{
+       justify-content: flex-end; 
+}
+#slogan{
+    font-size: 10px
+}
+#rss {
+    margin-left: 3px;
+}
+hr {
+    height: 10px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+logo{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start
+}
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
