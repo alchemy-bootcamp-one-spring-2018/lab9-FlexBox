@@ -101,7 +101,7 @@ hr {
 
 #list {
     columns: 2 auto;
-    background-image: url='/lab-assets/list-bg.png';
+    background-image: url("/lab-assets/list-bg.png");
     height: 200px;
 }
 
