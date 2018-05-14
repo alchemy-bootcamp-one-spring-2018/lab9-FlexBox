@@ -1,11 +1,19 @@
 body {
     padding-right: 10%;
     padding-left: 10%;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, .7)
 
 }
 
 h1 {
-    color: red;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    color: #000;
 }
 hr.bottom {
     overflow: visible; /* For IE */
@@ -30,7 +38,9 @@ hr.bottom:after {
 }
 p.sub-meta {
     text-transform: uppercase;
-
+    -webkit-margin-before: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, .4);
 }
 button {
     text-transform: uppercase;
@@ -46,7 +56,7 @@ button {
     width: 100%;
     background-repeat: repeat-y;
     background-size: 96.5%;
-    font-family: ;
+    font-family: 'Patrick Hand', cursive;
     column-count: 2;
     padding: 20px;
 }
@@ -57,6 +67,8 @@ padding: 0;
 }
 li {
     padding-left: 1.3em;
+    font-size: 1.2em;
+    -webkit-margin-before: 0;
 }
 li:before{
 content: "\f00c";
@@ -66,3 +78,9 @@ margin-left: -1.3em;
 width: 1.3em;
 
 }
+#logo{
+    font-family: 'Yellowtail', cursive;
+    font-size: 3em;
+}
+
+
