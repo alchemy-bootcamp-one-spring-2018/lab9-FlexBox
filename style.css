@@ -106,12 +106,13 @@ ul {
 }
 
 #author-info {
-    width: 60%;
+    width: 80%;
     align-items: center;
 }
 
 #author-info h3 {
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #author-info p {
@@ -120,4 +121,57 @@ ul {
 
 #author-info img {
     float: left;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+#copy {
+    padding-top: 20px;
+}
+
+#proud {
+}
+
+/* https://stackoverflow.com/questions/23584120/line-before-and-after-title-over-image */
+#foot-logo {
+    width: 100%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+}
+
+#foot-logo:before, #foot-logo:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: 0.7em;
+    border-bottom: 1px solid gray;
+}
+
+#foot-logo:after {
+    margin: 0 -55% 0 .5em;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
 }
