@@ -1,0 +1,57 @@
+body {
+    width: 905px;
+    margin: 0 auto;
+}
+
+div, section {
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    color: darkmagenta;
+}
+
+.flex {
+    display: flex;
+}
+
+.float-right {
+    float: right; 
+}
+
+
+
+#recipe {
+    background-image: url("lab-assets/list-bg.png");
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+hr {
+    height: 12px;
+    border: none;
+    background: lightgrey;
+}
+
+/* this section was taken from https://css-tricks.com/examples/hrs/ */
+hr.special {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    height: 1px;
+}
+hr.special:after {
+    content: url("lab-assets/small-logo.png");
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
