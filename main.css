@@ -1,0 +1,118 @@
+.flex-container {
+    display: flex;
+}
+.flex-container-column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left
+}
+
+.justify{
+    text-align: justify
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.patua-one{
+    font-family: 'Patua One', cursive;
+}
+
+.slabo{
+    font-family: 'Slabo 27px', serif;
+}
+
+ul.square{
+    list-style-type: ;
+}
+
+body{
+    margin: 50px 100px 100px 50px;
+}
+
+#top-logo-{
+    flex: 2;
+}
+
+#headline{
+    font-size: 2.0em;
+    margin-bottom: -4px;
+}
+
+#writing-logo{
+    flex: 1;
+    margin-left: 5px;
+    margin-top: -30px;
+}
+
+#delicious{
+    margin-bottom: -30px;
+    font-size: 1.75em;
+}
+
+.link-margins{
+    margin-left: 1px;
+}
+
+#rss-link{
+    margin-left: 5px;
+}
+
+.gray-bar{
+    background-color: rgba(128, 128, 128, 0.329);
+    height: 10px
+}
+
+.subhead{
+    color: gray;
+    size: .7em;
+}
+
+#authors-info{
+    margin- 
+}
+
+#date{
+    margin-top: -3px
+}
+
+#article-header{
+    justify-content: space-between;
+}
+
+.article-width{
+    max-width: 900px;
+}
+
+#footer{
+    margin-top: 30px;
+}
+
+.relative{
+    position: relative;
+}
+
+#card-list{
+    position:absolute;
+    top: 100px;
+    left: 650px
+}
+
+#bottom-writing{
+    position: absolute;
+    left: 75px;
+    bottom: -10px;
+}
