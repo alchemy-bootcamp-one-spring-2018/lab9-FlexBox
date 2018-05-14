@@ -45,17 +45,53 @@ p {
     color: #444;
 }
 
+#credits {
+    font-size: .8em;
+    text-align: center;
+}
+
 /**** graphics and dividers ****/
 
 button {
-    
+    background: #A95B45;
+    border: none;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 200;
+    font-size: .6em;
+    color: #fff;
+    padding: 6px 24px;
 }
 
 hr {
-    border-width: 4px;
-    border-style: solid;
-    color: #838383;
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+.line-icon {
+    text-align: center;
+}
+
+.line-icon::before,
+.line-icon::after {
+    width: 25%;
+    height: 1px;
+    border-top: 1px solid #999;
+    display: inline-block;
+    content: '';
+    padding-top: 0.5em;
 }
 
 /**** layout ****/
+
+#author {
+    display: flex;
+}
+
+#author button {
+    justify-content: flex-end;
+    margin: 20px 20px;
+}
+
 
