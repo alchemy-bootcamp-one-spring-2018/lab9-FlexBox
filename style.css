@@ -22,13 +22,48 @@ section {
     color: rgb(122, 122, 122);
 }
 
-#list, #Vanessa {
+#main-content p {
+    text-indent: 2em;
+}
+
+#list-paper {
+    position: relative;
+}
+
+#list-items {
+    position: absolute;
+    top: 155%;
+    left: 21%;
+}
+li {
+    line-height: 1.32em;
+    list-style-type: none;
+    /* text-indent: 2em; */
+}
+
+#list-left, #list-right {
+    display: inline-block;
+    color: darkslategray;
+}
+
+#author-info {
     display: flex;
+}
+
+#Vanessa {
     color: darkslategray
+}
+.van {
+    align-self: flex-start;
+}
+
+p .van {
+    max-width: 10em;
 }
 
 button {
     background-color: #bf6f56;
+    align-self: flex-end; 
 }
 
 #footer {
