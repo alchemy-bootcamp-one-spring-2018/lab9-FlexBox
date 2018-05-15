@@ -1,41 +1,113 @@
+/* general styles */
 body {
     width: 905px;
     margin: 0 auto;
+    color: black;
 }
-
-div, section {
-    border-style: solid;
-    border-width: 1px;
-    margin: 5px;
-    color: darkmagenta;
+p {
+    margin: 0;
+    font-size: 1.1em;
 }
-
 .flex {
     display: flex;
+    width: 905px;
 }
-
-.float-right {
-    float: right; 
-}
-
-
-
-#recipe {
-    background-image: url("lab-assets/list-bg.png");
-    background-repeat: no-repeat;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-ul {
-    list-style-type: square;
-}
-
 hr {
     height: 12px;
     border: none;
     background: lightgrey;
 }
+.spacer {
+    height: 20px;
+}
 
+/* header styles */
+#delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+}
+#best-food-blog {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .5em;
+}
+#header-section-1 {
+    flex: 1;
+}
+#header-section-2 {
+    flex: 7;
+}
+#header-section-3 {
+    flex: 8;
+    text-align: right;
+}
+
+/* title styles */
+#chocolate-pizza {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#title-section {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: .8em;
+    color: darkgrey;
+}
+#title-section-1 {
+    flex: 1;
+}
+#title-section-2 {
+    flex: 1;
+    text-align: right;
+}
+
+/* recipe styles */
+#recipe {
+    background-image: url('lab-assets/list-bg.png');
+    background-repeat: no-repeat;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    height: 320px;
+    font-size: 1.4em;
+}
+ul {
+    list-style-type: square;
+    flex: 1;
+    margin: 30px;
+    list-style-position: outside;
+}
+
+/* footer1 styles */
+#footer-section-1 {
+    flex: 1;
+}
+#footer-section-2 {
+    flex: 6;
+}
+#footer-section-3 {
+    flex: 2;
+    text-align: right;
+}
+#Vanessa {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+button {
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+/* footer2 styles */
+#footer2, #footer2 p {
+    text-align: center;
+    color: gray;
+    font-size: .9em;
+    margin: 0px;
+    border-style: none;
+}
 /* this section was taken from https://css-tricks.com/examples/hrs/ */
 hr.special {
     overflow: visible; /* For IE */
