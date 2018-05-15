@@ -1,14 +1,10 @@
-/* * {
-    border: 1px dotted red;
-} */
-
 .container {
     margin: 0 auto;
     width: 900px;
 }
 
 .grey {
-    color: gray;
+    color: rgb(182, 182, 182);
     font-family: sans-serif;
     font-size: 0.8em;
     margin: 0;
@@ -21,7 +17,18 @@
 }
 
 .left-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+#subtitle {
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+#pint {
+    margin-right: 7px;
 }
 
 .print {
@@ -29,17 +36,21 @@
 }
 
 #delicious {
+    display: flex;
     font-family: cursive;
     font-size: 2.0em;
     font-weight: bold;
+
 }
 
 .article-heading {
-    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-family: "Oswald", "impact", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-weight: bold;
 }
 
 h1 {
     margin: 20px 0 0 0;
+
 }
 
 .choco-pizza-img {
@@ -49,6 +60,7 @@ h1 {
 .main-article {
     margin: 15px 0;
     line-height: 1.5em;
+    text-indent: 2.0em;
 }
 .recipe {
     width: 900px;
@@ -76,8 +88,7 @@ h1 {
     text-decoration: line-through;
 }
 
-/* https://css-tricks.com/examples/hrs/ */
-hr.diagonal {
+hr {
 	border: 6px solid rgb(238, 237, 237);
 }
 
@@ -87,6 +98,7 @@ hr.diagonal {
 
 .author {
     align-self: flex-start;
+    margin-top: 20px;
 }
 
 .left-foot {
@@ -100,10 +112,28 @@ hr.diagonal {
 
 input[type="button"] {
     font-family: sans-serif;
-    width: 120px;
-    height: 40px;
+    width: 165px;
+    height: 50px;
     color: white;
     background-color: rgb(201, 104, 80);
+}
+
+/* https://css-tricks.com/examples/hrs/ */
+hr.logo-line {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: 2px solid rgb(238, 237, 237);
+    text-align: center;
+}
+hr.logo-line:after {
+    content: url(images/small-logo.png);
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.75em;
+    padding: 0 0.25em;
+    background: white;
 }
 
 .credits {
