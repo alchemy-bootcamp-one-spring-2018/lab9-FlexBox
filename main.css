@@ -97,10 +97,6 @@ body{
     size: .7em;
 }
 
-#authors-info{
-    margin- 
-}
-
 #date{
     margin-top: -3px
 }
@@ -115,6 +111,7 @@ body{
 
 #footer{
     margin-top: 30px;
+    justify-content: space-between;
 }
 
 .relative{
@@ -122,11 +119,12 @@ body{
 }
 
 #card-list{
-    position:absolute;
-    font-size: 1.625em;
-    top: 12px;
-    left: 600px;
     color: rgb(88, 88, 88);
+    background-image: url("lab-assets/list-bg.png");
+    font-size: 1.5em;
+    max-width: 32.5%;
+    align-items: center;
+    margin: auto;
 }
 
 #bottom-writing{
@@ -138,4 +136,12 @@ body{
 #bottom-logo{
     position: absolute;
     top: 4px;
+}
+
+#share-button{
+    max-height: 45px;
+    background-color: rgba(204, 31, 0, 0.719);
+    color: white;
+    justify-content: right;
+    border: 0px;
 }
