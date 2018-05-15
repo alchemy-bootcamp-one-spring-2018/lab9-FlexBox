@@ -1,7 +1,9 @@
 body {
     border: 0px solid black;
-    width: 800px;
     margin: 0 auto;
+    max-width: 800px;
+    min-width: 650px;
+    padding: 20px;
 }
 div {
     border:0px solid red;
@@ -98,7 +100,7 @@ div {
     background-image: url('images/list-bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 250px;
+    min-height: 250px;
     margin-bottom: 30px;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
