@@ -2,23 +2,24 @@ body {
     border: 0px solid black;
     margin: 0 auto;
     max-width: 800px;
-    min-width: 650px;
+    min-width: 450px;
     padding: 20px;
 }
 div {
     border:0px solid red;
 }
 .header {
-    border: 0px solid black;
     display: flex;
     flex-flow: column wrap;
-    align-content: flex-start;
+    align-content: flex-end;
     height: 75px;
+    width: auto;
     position: relative;
 }
     #logo {
         width: 65;
         margin-top: 10px;
+        position: absolute;
     }
     #all-nav {
         margin-top: 32px;
