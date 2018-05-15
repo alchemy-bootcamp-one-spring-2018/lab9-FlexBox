@@ -12,13 +12,15 @@
 <body>
     <header>
         <div id="lockup">
-            <img src="/images/logo.png">
-            <p id="logotype">
-                Delicious
-            </p>
-            <p id="tagline">
-                the best food blog on the web.
-            </p>
+            <img id="logo1" src="/images/logo.png">
+            <div>
+                <p id="logotype">
+                    Delicious
+                </p>
+                <p id="tagline">
+                    the best food blog on the web.
+                </p>
+            </div>    
         </div>
         <div id="social">
             <ul>
@@ -33,14 +35,15 @@
             </ul>
         </div>
     </header>
-    <hr>
+    <hr class="angled">
     <div id="content-title">
         <h1>Chocolate Pizza</h1>
         <h2>posted on 15 dec 2013 / desserts</h2>
-        <span id="print">
-        <img src="/images/print-icon.png">
-        <h2>print</h2>
-        </span>
+        <div>
+                <h2 id="print-text">print</h2>
+            <img id="print-icon" src="/images/print-icon.png">
+           
+        </div>
     </div>
     <div id="main-content">
         <img src="/images/choco-pizza.png">
@@ -49,9 +52,9 @@
         <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
     </div>
     <div id="ingredients">
-        <img src="/images/list-bg.png">
         <fieldset>
             <div>
+                <!-- <li input type="checkbox">1 1/2cup milk</li> -->
                 <input type="checkbox" id="milk" name="milk" value="1 1/2 cups milk">
                 <label for="milk">1 1/2 cups milk</label>
             </div>
@@ -74,7 +77,9 @@
             <div>
                 <input type="checkbox" id="water" name="water" value="2-4 tbsp water">
                 <label for="water">2-4 tbsp water</label>
-            </div> 
+            </div>
+        </fieldset>    
+        <fieldset>
             <div>
                 <input type="checkbox" id="cream" name="cream" value="1 1/2 cups heavy cream">
                 <label for="cream">1 1/2 cups heavy cream</label>
@@ -101,7 +106,7 @@
             </div>        
         </fieldset>       
     </div>
-    <hr>
+    <hr class="angled">
     <div id="author">
         <img src="/images/van-pic.png">
         <span>
@@ -113,11 +118,11 @@
         <button name="share">SHARE RECIPE</button>
     </div>
     <footer>
-        <div class='line-container'>
-            <div class='line-icon'>
-                <img src="/images/small-logo.png">
-            </div>
+        <div class='line-icon'>
+            <hr class="logo-line">
+            <!-- <img src="/images/small-logo.png"> -->
         </div>
+
         <div id="credits">
             <p> Delicious © 2013 ≥ All Rights Reserved.</p>
             <p>Proudly published with Ghost.</p>

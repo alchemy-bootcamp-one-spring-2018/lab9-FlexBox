@@ -1,4 +1,8 @@
-/****** Typography *******/
+body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #logotype {
     font-family: 'Yellowtail', cursive;
@@ -6,15 +10,47 @@
     color: black;
 }
 
+#logo1 {
+    float: left;
+    justify-content: flex-start;   
+}
+
+#logotype {
+    text-indent: 2em;
+    margin: 0;
+}
+
 #tagline {
     font-family: 'Oswald' , sans-serif;
     text-transform: uppercase;
     font-size: .3em;
     color: #444;
+    text-indent: 5em;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+#social {
+    justify-content: flex-end;
+}
+
+#social ul {
+   list-style-type: none;
+   display: inline-flex;
+}
+
+#social li {
+    margin: 0px 2px 2px 0px;
 }
 
 h1 {
     font-family: 'Oswald' , sans-serif;
+    margin: 0;
 }
 
 p {
@@ -28,7 +64,19 @@ p {
     text-transform: uppercase;
     font-size: .3em;
     color: #838383;
+    margin-top: 0px
 }
+
+#print-text {
+    float: right;
+    margin-bottom: 20px;   
+}
+
+#print-icon {
+    float: right;
+    margin-right: 3px; 
+}
+
 
 #main-content p {
     text-align: left;
@@ -36,8 +84,16 @@ p {
 }
 
 #ingredients {
+    background-image: url('images/list-bg.png');
+    height: 295px;
     font-family:  "Comic Sans MS", "Comic Sans", cursive;
     color: #838383;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #author-name {
@@ -62,36 +118,62 @@ button {
     padding: 6px 24px;
 }
 
-hr {
+.angled {
     height: 6px;
     background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .line-icon {
     text-align: center;
 }
 
-.line-icon::before,
-.line-icon::after {
-    width: 25%;
+.logo-line {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: solid 1px #838383;
+    color: #838383;
+    text-align: center;
+}
+
+.logo-line :after {
+    content: "./images/small-logo.png";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #fff;
+}
+
+/* .line-icon::after {
+    width: 80%;
     height: 1px;
     border-top: 1px solid #999;
     display: inline-block;
     content: '';
     padding-top: 0.5em;
-}
-
-/**** layout ****/
+} */
 
 #author {
     display: flex;
 }
 
+#author p {
+    width: 420px;
+    justify-content: space-around;
+}
+
 #author button {
     justify-content: flex-end;
     margin: 20px 20px;
+}
+
+footer {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
