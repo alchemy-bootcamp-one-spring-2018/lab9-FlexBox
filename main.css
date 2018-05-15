@@ -53,11 +53,16 @@ hr {
     border: 5px double;
 }
 
+ul {
+    list-style: none;
+}
 #ingredients {
     background-image: url('lab-assets/list-bg.png'); 
-    line-height: 50px;
+    line-height: 40px;
     display: flex;
-    justify-content: center;    
+    max-height: 300px;
+    width: 100%; 
+    justify-content: space-around;    
     margin: 0px auto;
 }
 list1 {
