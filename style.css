@@ -31,7 +31,7 @@ body {
 }
 
 .icon {
-    margin: 0 3px;
+    margin: 0 1px;
 }
 
 .black {
@@ -77,6 +77,10 @@ body {
     margin: 13px 0 13px 0;
 }
 
+#img-title {
+    margin: 0 0 13px 0;
+}
+
 #img-title span {
     color: black;
 }
@@ -101,7 +105,7 @@ body {
     /* background-color: black;
     background-blend-mode: hard-light; */
     width: 100%;
-    height: auto;
+    height: 222px;
     flex-direction: row;
 }
 
@@ -115,6 +119,14 @@ body {
     font-weight: bold;
     letter-spacing: 3px; 
     font-family: 'Shadows Into Light', cursive;
+}
+
+#space {
+    margin-left: 13px;
+}
+
+input:checked + label {
+    text-decoration: line-through;
 }
 
 .chklst {
@@ -135,12 +147,14 @@ body {
     background-color: salmon;
     color: white;
     white-space: nowrap;
+    font-weight: bold;
     padding: 13px 23px;
 }
 
 .line {
     border: 1px solid gray;
     width: 100%;
+    margin: 0 6px 0 6px;
 }
 
 #credits {

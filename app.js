@@ -4,6 +4,7 @@
 let form = document.getElementById('recipe');
 for(let i = 0; i <= 11; i++) {
     let lbl = document.getElementById('lab' + (i + 1));
+    // form[i].onclick = chck(form[i], i + 1);
     let temp = form[i];
     temp.onclick = function() {
         if(!form[i].checked){
