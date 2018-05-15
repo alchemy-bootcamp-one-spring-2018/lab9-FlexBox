@@ -11,7 +11,7 @@
     width: 300px;
 }
 #logo {
-    margin: 30px 0px 5px ;
+    margin: 28px 0px 5px ;
     float: left;
 }
 #logo2 {
@@ -21,7 +21,11 @@
 }
 #socialMediaButtons {
        justify-content: flex-end;
+       margin: 40px -2 0 -2;
        margin-top: 40px;
+}
+.smb{
+    margin-left: -1.5px;
 }
 #choco-Head {
     text-indent: 0px;
@@ -54,7 +58,7 @@
 #rss {
     margin-left: 6px;
 }
-hr {
+.hrule {
     height: 10px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
@@ -68,7 +72,7 @@ hr {
 body {
     margin: auto;
     width: 850px;
-    text-indent: 50px;
+    text-indent: 40px;
 }
 #choco-pizza {
     width: 850px;
@@ -85,7 +89,7 @@ body {
     background-color: rgb(184, 71, 37);
     color: white;
     width: 10em;
-    height: 60px;
+    height: 50px;
     font-size: 1rem;
     font-family: sans-serif;
     font-weight: 100;
@@ -114,4 +118,23 @@ li {
 }
 h3 {
     margin: 1px;
+}
+#endPage {
+    display: flex;
+    margin-top: 10px;
+}
+.footHr {
+    height: 0px;
+    width: 360px;
+    margin-top: 15px;
+}
+#copy-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#copy-right p {
+    margin: 3px;
+    text-indent: 2px; 
 }
