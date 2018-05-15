@@ -47,12 +47,20 @@
     color:rgb(88, 88, 88);
 }
 
-ul.square{
-    list-style-type: ;
+ul.none{
+    list-style-type: none;
 }
 
 body{
     margin: 50px 100px 100px 50px;
+}
+
+#mail-link{
+    margin-left: 2px;
+}
+
+#print-link{
+    text-decoration: none;
 }
 
 #top-logo-{
