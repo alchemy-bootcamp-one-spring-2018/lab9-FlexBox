@@ -74,6 +74,7 @@ h1 {
     flex-flow: row;
     justify-content: space-evenly;
     background-image: url(images/list-bg.png);
+    box-shadow: 0 8px 7px rgb(184, 184, 184);
     background-repeat: no-repeat;
     margin-bottom: 35px;
 }
