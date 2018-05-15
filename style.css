@@ -1,5 +1,7 @@
 body {
     padding: 50px 128px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 header {
@@ -9,10 +11,7 @@ header {
     width: 100%;
     padding-bottom: 30px;
     border-bottom: 3px solid black;
-}
-
-h1 {
-    font-family: 'Yellowtail', cursive;
+    /* height: 300px; */
 }
 
 .logo {
@@ -36,14 +35,22 @@ h1 {
 .logo img {
     float: left;
     padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .logo h1 {
     display: inline;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    margin: 0;
 }
 
 .logo p {
     margin: 0;
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
 }
 
 #subtitle {
@@ -60,10 +67,15 @@ h1 {
 
 #title-info h2 {
     display: inline;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
 }
 
 #title-info p {
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
 }
 
 #title-print {
@@ -72,11 +84,23 @@ h1 {
 
 #title-print p {
     display: inline;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+#article-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent */
 #article-main p {
     text-indent: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 #recipe-box {
@@ -106,26 +130,32 @@ ul {
 }
 
 #author-info {
-    width: 80%;
+    width: 70%;
     align-items: center;
 }
 
 #author-info h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
 #author-info p {
     margin: 0;
+    font-size: 18px;
 }
 
 #author-info img {
     float: left;
+    padding: 10px;
 }
 
 button {
     font-size: 20px;
     padding: 10px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    background-color: tomato
 }
 
 footer {
@@ -144,9 +174,6 @@ footer p {
 
 #copy {
     padding-top: 20px;
-}
-
-#proud {
 }
 
 /* https://stackoverflow.com/questions/23584120/line-before-and-after-title-over-image */
