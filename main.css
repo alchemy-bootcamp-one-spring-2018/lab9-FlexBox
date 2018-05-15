@@ -1,6 +1,6 @@
 body {
     border: 1px solid black;
-    width: 950px;
+    width: 800px;
     margin: 0 auto;
 }
 div {
@@ -11,30 +11,37 @@ div {
     display: flex;
     flex-flow: column wrap;
     align-content: flex-start;
-    height: 100px;
+    height: 75px;
+    position: relative;
 }
 #logo {
-    height: 75px;
-    width: 71px;
+    width: 65;
+    margin-top: 10px;
 }
 #all-nav {
-    margin-top: 40px;
-    margin-left: 213px;
+    margin-top: 32px;
+    margin-left: 507px;
 }
 .social {
-    width: 35px;
-    height: 35px;
+    float: left;
+    cursor: pointer;
 }
-.social-wrapper {
+#rightsocial1, rightsocial2 {
     padding-left: 10px;
 }
 #delicious {
     font-family: 'Yellowtail', cursive;
-    font-size: 40px;
+    font-size: 38px;
+    position: absolute;
+    left: 42px;
 }
 #bestfoodblog {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    font-size: 12px;
+    position: absolute;
+    left: 47px;
+    top: 40px;
 }
 h1 {
     margin: 0px;
@@ -42,9 +49,19 @@ h1 {
 }
 h2 {
     margin: 0px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     opacity: 0.3;
+}
+
+.hr {
+	height: 6px;
+    background-image: url(images/hrule.png);
+    background-repeat: repeat-x;
+    border: 0;
+    background-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 .content-box1 {
     border: 1px solid black;
@@ -60,16 +77,17 @@ h2 {
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 16px;
     text-indent: 40px;
 }
-.content-box2 {
+.ingredient-list {
     background-image: url('images/list-bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 5px;
+    height: 250px;
+    margin-bottom: 30px;
     font-family: 'Patrick Hand', cursive;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
