@@ -116,6 +116,9 @@ width: 1.3em;
 }
 #logo{
 font-family: 'Yellowtail', cursive;
+width: 40px;
+margin-top: 0;
+margin-left: 60px;
 font-size: 2.2em;
 line-height: .8em;
 -webkit-margin-after: 0;
@@ -127,7 +130,8 @@ margin-right: 10px;
 
 #logo-subhead {
     font-family: 'Oswald', sans-serif;
-    padding-left: 30px;
+    padding-left: 0px;
+    margin-left: 60px;
     font-size: 0.7em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, .4);
@@ -147,11 +151,15 @@ strong {
 
 #logo-container {
     float: left;
-    width: 75%;
+    width: 70%;
 
 }
 #social-logo-container {
-    float: right:
+    float: right;
+    display: inline-block;
+    margin-top: 15px;
+    padding-left: 10px;
+    
     width: 25%;
 
 }
