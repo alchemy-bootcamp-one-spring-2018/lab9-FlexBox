@@ -4,11 +4,52 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#socialMediaButtons{
-       justify-content: flex-end; 
+#wholeLogo {
+    float: left;
+    justify-content: flex-start;
+    text-indent: 4px;
+    width: 300px;
 }
-#slogan{
+#logo {
+    margin: 30px 0px 5px ;
+    float: left;
+}
+#logo2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    margin: 20px 5px 0px 0px;
+}
+#socialMediaButtons {
+       justify-content: flex-end;
+       margin-top: 40px;
+}
+#choco-Head {
+    text-indent: 0px;
+
+}
+#print-text {
+    font-family: 'Oswald', sans-serif;
     font-size: 10px;
+    color: grey;
+    float: right;
+    margin: 0px;
+}
+#print-icon {
+    float: right;
+    margin-top: 2px;
+}
+#food-logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.slogan{
+    color: grey;
+    font-size: 10px;
+    margin-top: -10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter
 }
 #rss {
     margin-left: 6px;
@@ -30,6 +71,7 @@ body {
 }
 #choco-pizza {
     width: 850px;
+    margin-top: 10px;
 }
 #todo {
     display: flex;
