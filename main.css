@@ -1,0 +1,140 @@
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1 {
+    margin: -12px 0px 0px 5px;
+    font-family: "Yellowtail"; font-size: 40px;
+}
+
+#lockup {
+    display: flex;
+    align-items: flex-start;
+}
+
+#tag-line {
+    margin: -12px 0px 0px 5px;
+    font-family: "Oswald"; font-size: 11px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+}
+
+#h2 {
+    font-family: "Oswald"; font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Teko', sans-serif; font-size: 22px;
+    color: grey;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    
+}
+
+#print-icon {
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    font-size: 12px;
+}
+
+#pizza-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#main-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-body p {
+    text-indent: 2.0em;
+}
+
+#pinterest {
+    margin-right: 8px;
+}
+
+#recipe {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/list-bg.png);
+    background-size: cover;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    background: transparent;
+}
+
+label {
+    font-family: "Patrick Hand"; font-size: 25px;
+}
+
+#author {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#vanessa h2 {
+    font-size: 30px;
+    margin: 10px 0px 15px -5px;
+}
+
+#van-pic {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#share-button {
+    background: #A95B45;
+    padding: 15px 40px 15px 40px;
+    margin: 25px 0px 0px 0px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px 50px 0px;
+}
+
+footer p {
+    margin: 0px;
+    color: grey;
+}
+
+#small-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.hr {
+    height: 1em;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+    border: 0;
+    margin-top: 20px;
+}
