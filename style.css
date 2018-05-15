@@ -1,3 +1,14 @@
+#head {
+    margin: 199px;
+    top: 100px;
+}
+
+body#whole {
+    contain: content;
+    margin: 150px;
+    top: 100px;
+}
+
 #delicious {
     font-family: 'Yellowtail'; font-size: 39px;
 }
@@ -14,6 +25,31 @@ p#best {
     padding: 2px;
 }
 
+#twit {
+    padding: 2px;
+}
+#goog {
+    padding: 2px;
+}
+#inst {
+    padding: 2px;
+}
+#flic {
+    padding: 2px;
+}
+#pint {
+    padding: 2px;
+}
+#pint {
+    padding: 2px;
+}
+#rss {
+    padding: 2px;
+}
+#mail {
+    padding: 2px;
+}
+
 #icons {
     padding: 5px;
     display: flex;
@@ -22,18 +58,39 @@ p#best {
     right: 60px;
 }
 
+div#piz {
+    justify-content: center;
+    flex-flow: block;
+}
 p#pizza {
+    margin: 1px;
     font-size: 33px;
 }
 
 p#posted {
-    float: right;
+    color: grey;
+    font-size: 11px;
+    margin: 1px;
+    bottom: 15px;
+}
+
+span#print {
+    display: inline;
+    padding: 5px;
+    position: absolute;
+    right: 40px;
 }
 
 hr.first-line {
-	height: 6px;
+	height: 19px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: grey;
 }
 
 hr.second-line {
@@ -42,3 +99,13 @@ hr.second-line {
     border: 0;
 }
 
+img#van {
+    float: left;
+}
+
+button#share {
+    display: inline;
+    padding: 80px;
+    position: absolute;
+    right: 40px;
+}
