@@ -1,0 +1,44 @@
+#delicious {
+    font-family: 'Yellowtail'; font-size: 39px;
+}
+
+img#utensils {
+    float: left;
+}
+
+p#best {
+    font-family: 'Times New Roman', Times, serif; font-size: 8;
+}
+
+#fb {
+    padding: 2px;
+}
+
+#icons {
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 39px; 
+    right: 60px;
+}
+
+p#pizza {
+    font-size: 33px;
+}
+
+p#posted {
+    float: right;
+}
+
+hr.first-line {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+hr.second-line {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
