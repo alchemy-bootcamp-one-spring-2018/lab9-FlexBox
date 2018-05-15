@@ -1,12 +1,21 @@
 body {
     border: 1px solid black;
-    width: 1360px;
+    width: 950px;
     margin: 0 auto;
 }
 .header {
     border: 1px solid black;
     display: flex;
     height: 100px;
+}
+.social {
+    width: 35px;
+}
+.social2 {
+    width: 35px;
+}
+.social-wrapper2 {
+
 }
 #delicious {
     font-family: 'Yellowtail', cursive;
@@ -15,37 +24,45 @@ body {
 #bestfoodblog {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    opacity: ;
 }
 h1 {
     margin: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     margin: 0px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.3;
 }
 .content-box1 {
     border: 1px solid black;
-    max-height: 70px;
+    max-height: 60px;
     display: flex;
     flex-flow: column wrap;
+    align-self: flex-end;
+    vertical-align: bottom;
+}
+#main-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 p {
     font-family: serif;
     font-size: 20px;
-    text-indent: 20px;
+    text-indent: 40px;
+}
+.content-box2 {
+    background-image: url('images/list-bg.png');
+    background-repeat: no-repeat;
 }
 .uppercase {
     text-transform: uppercase;
 }
-.content-box1 {
-    border: 1px solid black;
-}
-button {
-    width: 70px;
+#button1 {
+    width: 80px;
     height: 27px;
-    text-align: right;
     color: rgba(124, 121, 121, 0.397);
     background-image: url("images/print-icon.png");
     background-size: 25px;
@@ -53,6 +70,8 @@ button {
     background-position-y: center;
     display: flex;
     align-self: flex-end;
-    margin-top: 45px;
-    opacity: 0.6;
+    margin-top: 35px;
+    opacity: 0.8;
+    text-indent: 24px;
+    cursor: pointer;
 }
