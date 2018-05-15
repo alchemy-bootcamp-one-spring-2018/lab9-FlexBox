@@ -67,8 +67,13 @@ p {
     background-image: url('images/list-bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 5px;
     font-family: 'Patrick Hand', cursive;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .uppercase {
     text-transform: uppercase;
