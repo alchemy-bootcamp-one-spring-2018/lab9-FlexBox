@@ -1,0 +1,40 @@
+.top-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    
+}
+
+hr.style11 {
+    height: 25px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+body {
+    max-width:720px;
+    margin: auto;
+
+}
+ 
+#ingredients-list {
+    background-image: url('/images/list-bg.png');
+}
+
+#feature-img {
+    width: 100%;
+
+}
+        
+
+
+p {
+    text-indent: 5%;
+}
+
+    
