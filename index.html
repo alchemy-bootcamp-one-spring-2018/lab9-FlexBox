@@ -9,13 +9,12 @@
 </head>
 <body>
 
-   <div class="top-line">
+   <section class="top-line">
         <div> <img id="logo" src="/images/logo.png"> </div> 
         <div> <h1 id="company-name">Delicious</h1></div>
         <div> <p id="tagline">THE BEST FOOD BLOG ON THE WEB</p></div>
-        <div class="social-media">
-            <nav 
-                
+        <div>
+            <nav class="social-media">              
                     <div> <img src="/images/fb-icon.png"></div>
                     <div> <img src="/images/twit-icon.png"></div>
                     <div> <img src="/images/gp-icon.png"></div>
@@ -23,11 +22,10 @@
                     <div> <img src="/images/flic-icon.png"></div>
                     <div> <img src="/images/pint-icon.png"></div>
                     <div> <img src="/images/rss-icon.png"></div>
-                    <div> <img src="/images/mail-icon.png"></div>
-                
+                    <div> <img src="/images/mail-icon.png"></div>  
             </nav>
         </div>        
-    </div> 
+    </section> 
 
     <div>
         <hr class="style11">
@@ -36,29 +34,65 @@
     <div>
         <div> <h2 id="feature-food">Chocolate Pizza </h2></div>
         <div> <p id="feature-desc">POSTED ON 15 DESC 2013/ DESSERTS</p></div>
+        <div> <img id="print-icon" src="/images/print-icon.png"></div>
         <div> <img id="feature-img" src="/images/choco-pizza.png"> </div>
     </div>
-
+    <section id="paragraph">
     <p>Chocolate bonbon sweet roll oat cake donut. Sweet lollipop sugar plum cheesecake cake cookie marshmallow donut tootsie roll. Sesame snaps chocolate cake chocolate bar cheesecake candy canes sugar plum. Tart dragée croissant donut dessert. Gummi bears pie jelly beans wafer brownie icing sweet roll tiramisu jelly-o. Dragée gingerbread oat cake candy biscuit sugar plum.</p>
 
     <p>Marzipan cake gingerbread sugar plum powder candy gingerbread gingerbread. Pudding marzipan gingerbread sweet candy pie cake. Toffee bear claw tootsie roll. Marshmallow brownie danish. Cupcake bonbon macaroon marshmallow wafer cupcake. Sweet roll dessert cheesecake soufflé sesame snaps macaroon lemon drops. Chocolate bar lollipop sugar plum macaroon jelly beans muffin brownie danish apple pie. </p>
 
     <p>Chocolate cake cupcake candy canes apple pie fruitcake pastry carrot cake muffin gummies. Muffin donut pastry dessert dessert dessert bonbon. Dessert carrot cake cheesecake brownie marshmallow cookie gingerbread. Cake pastry chocolate danish wafer brownie jelly brownie. Gummi bears brownie marshmallow bonbon tiramisu. Chocolate bar pie ice cream pastry cheesecake tart jujubes oat cake oat cake. Marzipan lemon drops cotton candy. Sesame snaps biscuit pie bear claw. Cupcake pie toffee halvah cupcake chocolate bar. Topping pudding gummies candy canes.</p>
+    </section>
 
     <div id="ingredients-list">
-        <input type="checkbox"      >    </p> 
-        <p       > </p>
+        <span>
+        <ul id="outer-list">
+            <li><input type="checkbox"  />1 1/2 cups milk</li>
+            <li><input type="checkbox"  />1/2 cup mascarpone</li>
+            <li><input type="checkbox"  />1/2 tsp pink salt</li>
+            <li><input type="checkbox"  />1 lb Black Mission Figs</li>
+            <li><input type="checkbox"  />1/2 cup brown sugar</li>
+            <li><input type="checkbox"  />2-4 tbsp water</li>
+        </ul>     
+        <ul>
+                <li><input type="checkbox"  />1 1/2 cups heavy cream</li>
+                <li id="crossed-out1"><input type="checkbox" checked="checked" />1/3 granulated sugar</li>
+                <li id="crossed-out2"><input type="checkbox" checked="checked" />2 egg yolks</li>
+                <li><input type="checkbox"  />1 lemon, juiced</li>
+                <li><input type="checkbox"  />2 tbsp butter</li>
+                <li><input type="checkbox"  />1 cup honey roaster pecans, roughly chopped</li>
+        </ul> 
+        </span>          
     </div>
-         
-   
 
+    <div>
+        <hr class="style11">
+    </div>
+
+    <div id="blogger">
+        <span>
+        <img src="/images/van-pic.png">
+        </span>
+        <span id="blogger-name">
+        <p><strong>Vanessa Stevenson</strong> <br>
+        Food enthusiast, photography fun. Add a pinch of raw foodism and that's <br> pretty much who I am </p>
+        </span>
+        <span>
+        <input id="recipe" type="submit" value="SHARE RECIPE"/>
+        </span>
+    </div> 
+
+    <div><hr class="style4"> </div>
+    <div><img class="small-log" src="/images/small-logo.png"></div>
     
 
    
-        
-   
- 
-   
   
 </body>
+
+<footer>
+    <p>Delicious &copy 2013 - All Rights Reserved. <br>Proudly published with Ghost.</p>
+</footer>
+
 </html>
