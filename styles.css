@@ -94,99 +94,98 @@ p {
     text-align: left;
     text-indent: 1.5em;
     line-height: 1.5em;
+    max-width: 900px;
 }
 
-#ingredients {
+#checklist {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    height: 295px;
+    justify-content: space-between; 
     background-image: url('images/list-bg.png');
-    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    height: 295px;
+    margin-bottom: 40px;
+} 
+
+ul {
+    margin-top: 40px;
+    margin-right: 100px;
+    font-family: 'Patrick Hand' , cursive;
     font-size: 1.2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
+    color: #838383;
+    list-style-type: none;
+}
+
+li {
+    margin: 3px;
+}
+
+#author {
+    display: flex;
+    text-indent: 10px;
+    flex-flow: row;
+    height: 70px;
+}
+
+#author p {
+    padding-left: 20px;
+    text-indent: 0px;
+    max-width: 450px;
+
     color: #838383;
 }
 
-fieldset {
-    border: none;
-    padding-top: 4%;
+p#author-name {
+    font-weight: bold;
+    color: #333;
 }
 
-
-#author-name {
-    font-weight: bold;
-    color: #444;
+button {
+    background: #B9705A;
+    border: none;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 200;
+    color: rgb(245, 245, 245);
+    font-size: 1em;
+    width: 10em;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 2%;
+    justify-content: flex-end;   
 }
 
 #credits {
     font-size: .8em;
     text-align: center;
-}
-
-/**** graphics and dividers ****/
-
-button {
-    background: #A95B45;
-    border: none;
-    font-family: 'Oswald' , sans-serif;
-    font-weight: 200;
-    font-size: .6em;
-    color: #fff;
-    padding: 6px 24px;
+    color: #999;
 }
 
 .angled {
     height: 6px;
     background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .line-icon {
     text-align: center;
 }
 
-.logo-line {
-    overflow: visible;
+hr.logo-line {
+    overflow: visible; 
     padding: 0;
     border: none;
     border-top: solid 1px #838383;
-    color: #838383;
     text-align: center;
 }
-
-.logo-line :after {
-    content: "./images/small-logo.png";
+hr.logo-line:after {
+    content: url(/images/small-logo.png);
     display: inline-block;
     position: relative;
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: #fff;
-}
-
-/* .line-icon::after {
-    width: 80%;
-    height: 1px;
-    border-top: 1px solid #999;
-    display: inline-block;
-    content: '';
-    padding-top: 0.5em;
-} */
-
-#author {
-    display: flex;
-}
-
-#author p {
-    width: 420px;
-    justify-content: space-around;
-}
-
-#author button {
-    justify-content: flex-end;
-    margin: 20px 20px;
+    background: white;
 }
 
 footer {
