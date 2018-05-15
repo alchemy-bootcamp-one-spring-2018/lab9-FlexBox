@@ -25,7 +25,6 @@
 }
 #choco-Head {
     text-indent: 0px;
-
 }
 #print-text {
     font-family: 'Oswald', sans-serif;
@@ -48,8 +47,9 @@
     color: grey;
     font-size: 10px;
     margin-top: -10px;
+    margin-bottom: 0px;
     font-family: 'Oswald', sans-serif;
-    font-weight: lighter
+    font-weight: lighter;
 }
 #rss {
     margin-left: 6px;
@@ -58,6 +58,7 @@ hr {
     height: 10px;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
+    margin: 25px;
 }
 #instructions {
     display: flex;
@@ -80,6 +81,15 @@ body {
     background-image: url('lab-assets/list-bg.png');
     height: 295px;
 }
+#shareButton {
+    background-color: rgb(184, 71, 37);
+    color: white;
+    width: 10em;
+    height: 60px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
 
 ul {
     margin-top: 35px;
@@ -89,4 +99,19 @@ ul {
 }
 li {
     margin: 5px;
+}
+#footer {
+    display: flex;
+    text-indent: 10px;
+    flex-flow: row;
+    height: 70px;
+}
+#shareButton {
+    float: right;
+}
+#aboutV {
+    margin: 1px;
+}
+h3 {
+    margin: 1px;
 }
