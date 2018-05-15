@@ -98,8 +98,8 @@ body {
 #recipe {
     background-image: url('/img/list-bg.png');
     background-size: cover;
-    background-color: black;
-    background-blend-mode: hard-light;
+    /* background-color: black;
+    background-blend-mode: hard-light; */
     width: 100%;
     height: auto;
     flex-direction: row;
@@ -125,7 +125,7 @@ body {
     margin: 13px 0 13px;
 }
 
-#footer img {
+#footer img, #footer p {
     margin-right: 23px;
 }
 
