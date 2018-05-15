@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 13px;
+    background: white;
+}
+
+#container-main {
+    display: flex;
+    flex-flow: column;
+    max-width: 666px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.flex-item {
+    float: left;
+    /* border: 1px solid red; */
+    color: gray;
+}
+
+.icon {
+    margin: 0 1px;
+}
+
+.black {
+    color: black;
+}
+
+.gray {
+    color: gray !important;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+    padding: 3px;
+}
+
+#header-logo {
+    align-self: center;
+}
+
+#header span {
+    margin: 3px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#header p { 
+    font-size: .5rem;
+}
+
+.spacer {
+    width: auto;
+    background-image: url('/img/hr.png');
+    background-size: auto;
+    height: 13px;
+    margin: 13px 0 13px 0;
+}
+
+#img-title {
+    margin: 0 0 13px 0;
+}
+
+#img-title span {
+    color: black;
+}
+
+#choco-za {
+    width: 100%;
+}
+
+#text {
+    flex-direction: column;
+}
+
+#text p {
+    text-indent: 33px;
+    line-height: 1.5rem;
+    padding: 13px;
+}
+
+#recipe {
+    background-image: url('/img/list-bg.png');
+    background-size: cover;
+    /* background-color: black;
+    background-blend-mode: hard-light; */
+    width: 100%;
+    height: 222px;
+    flex-direction: row;
+}
+
+#recipe .flex-item {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    color: black;
+    flex: 1;
+    margin-top: 13px;
+    line-height: 1.45rem;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#space {
+    margin-left: 13px;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+}
+
+.chklst {
+    padding: 13px 33px;
+}
+
+#footer {
+    margin: 13px 0 13px;
+}
+
+#footer img, #footer p {
+    margin-right: 23px;
+}
+
+#footer a {
+    display: block;
+    text-decoration: none;
+    background-color: salmon;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 13px 23px;
+}
+
+.line {
+    border: 1px solid gray;
+    width: 100%;
+    margin: 0 6px 0 6px;
+}
+
+#credits {
+    flex-direction: column;
+    text-align: center;
+}
