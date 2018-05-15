@@ -1,5 +1,5 @@
 body {
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,26 +9,86 @@ body {
     
 }
 
-#left-icons {
-    width: 30%;
+h1 {
+    margin: -12px 0px 0px 5px;
+    font-family: "Yellowtail"; font-size: 40px;
+}
+
+#logo-text {
+    display: flex;
+    align-items: flex-start;
+}
+
+#tag-line {
+    margin: -12px 0px 0px 5px;
+    font-family: "Oswald"; font-size: 11px;
+    color: grey;
+    text-transform: uppercase;
 }
 
 #logo {
     float: left;
 }
 
+h2 {
+    font-family: "Oswald"; font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: "Oswald"; font-size: 14px;
+    color: grey;
+    margin-top: 0px;
+}
+
+#print-icon {
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    font-size: 12px;
+}
+
+#pizza-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#main-body p {
+    text-indent: 2.0em;
+}
+
+#main-body {
+    display: flex;
+    flex-direction: column;
+}
+
 #recipe {
     display: flex;
     justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url(./images/list-bg.png);
-    width: 60%;
+    background-size: cover;
     padding: 40px;
+}
+
+label {
+    font-family: "Patrick Hand"; font-size: 25px;
+}
+
+#author {
+    display: flex;
+    align-items: flex-start;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    align-content: center;
+    flex-direction: column;
+}
+
+#small-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
 }

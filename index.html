@@ -7,19 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald:700|Patrick+Hand|Yellowtail" rel="stylesheet">
 
 </head>
 <body>
     <div id="header">
-        
-        <div id="left-icons">
-            <img src="./images/logo.png" id="logo">
-    
-            Delicious <br>
-            The best foot blog on the web.
+
+        <div id="logo-text">
+            <img src="./images/logo.png">
+            <div>
+                <h1>Delicious</h1>
+                <p id="tag-line">The best food blog on the web.</p>
+            </div>
         </div>
+
         
-        <div id="right-icons">
+        
+        <section id="right-icons">
             <img src="./images/fb-icon.png">
             <img src="./images/twit-icon.png">
             <img src="./images/gp-icon.png">
@@ -28,7 +32,7 @@
             <img src="./images/pint-icon.png">
             <img src="./images/rss-icon.png">
             <img src="./images/mail-icon.png">
-        </div> 
+        </section> 
 
         
     </div>
@@ -36,59 +40,82 @@
     <hr>
 
     <h2>Chocolate Pizza</h2>
-    <h3>POSTED ON 15 DEC 2013/DESSERTS</h3>
+    <h3>POSTED ON 15 DEC 2013 / DESSERTS</h3>
 
-    <p><img src="./images/print-icon.png">PRINT</p>
-    
-    <img src="./images/choco-pizza.png" alt="choclate pizza">
+    <p id="print-icon"><img src="./images/print-icon.png">PRINT</p>
 
-    <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add Brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+    <div id="main-body">
     
-    <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-
-    <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Free for at least two hours before serving.</p>
-    
-    <div id="recipe">
         <div>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1 1/2 cups milk</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1/2 cups mascarpone</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1/2 tsp pink salt</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1 lb Black Mission Figs</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1/2 cub brown sugar</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">2-4 tbsp water</label>
+            <img src="./images/choco-pizza.png" alt="choclate pizza" id="pizza-image">
         </div>
+        
+        <section>
+            <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add Brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        
+            <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
 
-        <div>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1 1/2 cups heavy cream</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1/3 granulated sugar</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">2 egg yolks</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1 lemon, juiced</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">2 tbsp butter</label> <br>
-            <input id="checkBox" type="checkbox">
-            <label for="checkbox">1 cup honey roasted pecans, roughly chopped</label>
-        </div>
+            <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Free for at least two hours before serving.</p>
+        </section>
+    
+        <section id="recipe">
+            <div>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1 1/2 cups milk</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1/2 cups mascarpone</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1/2 tsp pink salt</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1 lb Black Mission Figs</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1/2 cub brown sugar</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">2-4 tbsp water</label>
+            </div>
+
+            <div>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1 1/2 cups heavy cream</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1/3 granulated sugar</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">2 egg yolks</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1 lemon, juiced</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">2 tbsp butter</label> <br>
+                <input id="checkBox" type="checkbox">
+                <label for="checkbox">1 cup honey roasted pecans, roughly chopped</label>
+            </div>
+
+        </section>
 
     </div>
 
     <hr />
 
-    <h3>Vanessa Stevenson</h3>
-    <p><img src="./images/van-pic.png">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>
+    <div id="author">
+        
+        <img src="./images/van-pic.png">
 
-    <hr /> <img src="./images/small-logo.png">
+        <div id="vanessa">
+            <h2>Vanessa Stevenson</h2>
+            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>
+        </div>
+    
+        <button id="share-button">SHARE RECIPE</button>
 
-    <footer>Delicious &copy; 2013 - All Rights Reserved. <br> Proudly published with Ghost.</footer>
+    </div>
+ 
+    
+    
+    
+    <hr /> 
+    
+    <div id="small-logo"><img src="./images/small-logo.png"></div>
+
+    <footer><p>Delicious &copy; 2013 - All Rights Reserved.</p> <p>Proudly published with Ghost.</p></footer>
 
 </body>
 </html>
