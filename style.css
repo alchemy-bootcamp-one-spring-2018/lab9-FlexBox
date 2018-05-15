@@ -1,0 +1,239 @@
+/* html {
+    background: url(img/PREVIEW.jpg) no-repeat;
+    background-size: cover;
+} */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 70% 1fr;
+    grid-template-rows: 200px auto 500px;
+    grid-template-areas:
+        ". header ."
+        ". content ."
+        ". footer .";
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    color: #838383;
+}
+
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 6fr 12fr;
+    grid-template-rows: 30px 50px 50px 16px 1fr;
+    
+}
+
+/* .fas {
+    background: #333333;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    align-self: center;
+} */
+
+#header-logo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    /* padding: 15px 10px 10px 10px; */
+    height: 50px;
+    /* width: 40px; */
+}
+
+#title {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: flex-start;
+    
+}
+
+#social-media-icons {
+    justify-self: end;
+    align-self: center;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#social-media-icons span {
+    margin-left: 8px;
+}
+
+#flickr {
+    margin-left: -2px;
+}
+
+header h1 {
+    margin: -13px 0px 0px 6px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.9em;
+    color: black;
+}
+
+header p {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    margin: -13px 0px 0px 10px;
+    font-size: .8em;
+}
+
+.horizontal-rule {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    color: white;
+    background: repeating-linear-gradient(
+        -45deg,
+        white,
+        white 3px,
+        #9c9c9c 3px,
+        #9c9c9c 4px
+    );
+}
+
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+#copyright p {
+    margin: 2px;
+}
+
+
+
+
+.content{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 115px auto 1fr 305px;
+}
+
+.title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 0px;
+    align-items: center;
+}
+
+.title h1 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin: 0px;
+    font-size: 3em;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Pragati Narrow', sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: -10px 0px 0px 0px;
+    color: lightgray;
+}
+
+.image {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#choco-pizza {
+    width: 100%;
+}
+
+
+.recipe {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.recipe p {
+    text-indent: 2em;
+    margin: 2em 0px 2em 0px;
+    font-size: 1.25em;
+}
+
+.ingredients {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    display: flex;
+    
+    color: #6e604f;
+    background: url(img/list-bg.png);
+    background-size: 100% 305px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+ul {
+    margin-top: 32px;
+    margin-left: 7%;
+    width: 35%;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.41em;
+    margin-top: .5px 0px .5px 10px;
+}
+
+input {
+    margin-right: 1em;
+}
+
+footer {
+    grid-area: footer;
+    margin-top: 50px;
+}
+
+.footer-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#small-logo {
+    margin-top: -35px;
+    background: white;
+    padding: 10px;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.author {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.author h2 {
+    margin: 0px;
+    color: #333333;
+}
+
+button {
+    margin-top: 10px;
+    background: #ba7057;
+    border: none;
+    color: white;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+checkbox {
+    color: #ada592;
+}
