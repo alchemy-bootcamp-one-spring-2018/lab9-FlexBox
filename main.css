@@ -14,7 +14,7 @@ h1 {
     font-family: "Yellowtail"; font-size: 40px;
 }
 
-#logo-text {
+#lockup {
     display: flex;
     align-items: flex-start;
 }
@@ -30,15 +30,17 @@ h1 {
     float: left;
 }
 
-h2 {
+#h2 {
     font-family: "Oswald"; font-size: 40px;
     margin-bottom: 0px;
 }
 
 h3 {
-    font-family: "Oswald"; font-size: 14px;
+    font-family: 'Teko', sans-serif; font-size: 22px;
     color: grey;
-    margin-top: 0px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    
 }
 
 #print-icon {
@@ -52,6 +54,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -65,7 +68,7 @@ h3 {
 }
 
 #pinterest {
-    margin-right: 6px;
+    margin-right: 8px;
 }
 
 #recipe {
@@ -74,6 +77,12 @@ h3 {
     background-image: url(./images/list-bg.png);
     background-size: cover;
     padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    background: transparent;
 }
 
 label {
@@ -82,15 +91,30 @@ label {
 
 #author {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
+#vanessa h2 {
+    margin: 10px 0px 15px -100px;
+}
+
+#vanessa p {
+    margin: 0px 0px 0px -100px;
+}
+
+#van-pic {
+    margin-top: 15px;
+    margin-right: 10px;
+}
 #share-button {
     background: #A95B45;
-    padding: 15px 35px 15px 35px;
+    padding: 15px 40px 15px 40px;
+    margin: 25px 0px 0px 0px;
     color: white;
-    font-size: 1em;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 footer {
@@ -109,4 +133,11 @@ footer p {
     display: flex;
     justify-content: center;
     margin-top: -25px;
+}
+
+.hr {
+    height: 1em;
+    background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
+    border: 0;
+    margin-top: 20px;
 }
