@@ -55,7 +55,21 @@ hr {
 
 #ingredients {
     background-image: url('lab-assets/list-bg.png'); 
-    display: block;    
+    line-height: 50px;
+    display: flex;
+    justify-content: center;    
     margin: 0px auto;
+}
+list1 {
+    display: flex;
+}
+list2 {
+    display: flex;
+}
 
+#share {
+    float: right;
+    background-color: #A95B45;
+    /* width: 100px */
+    padding: 20px;
 }
