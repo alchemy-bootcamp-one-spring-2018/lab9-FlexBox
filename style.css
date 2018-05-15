@@ -1,0 +1,108 @@
+.top-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    
+}
+
+
+hr.style11 {
+    height: 50px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+hr.style4 {
+    border-top: 1px dotted #8c8b8b;
+}
+
+body {
+    max-width:720px;
+    margin: auto;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;  
+}
+
+
+ 
+#ingredients-list {
+    background-image: url('/images/list-bg.png');
+/*    z-index: 1; */
+/*    display: block; */
+}
+
+#feature-img {
+    width: 100%;
+}
+
+#feature-food {
+    margin-bottom:0;
+}
+
+#feature-desc {
+    margin-top: 0;
+    text-indent: 0%;   
+}
+  
+#print-icon {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+}
+
+h1 {
+    font: Comic Sans Ms;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#paragraph {
+    text-align: center;
+    text-justify: right;
+}
+
+#blogger {
+    display: flex;
+    flex-direction: row;        
+}
+
+#blogger-name {
+    text-align: 10px;
+}
+#recipe {
+    justify-content: flex-end;
+    float: right;
+}
+
+#crossed-out1 {
+    text-decoration: line-through;
+}
+
+#crossed-out2 {
+    text-decoration: line-through;
+}
+
+#small-logo {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    text-align: center;
+}
+
+
+
+
+    
