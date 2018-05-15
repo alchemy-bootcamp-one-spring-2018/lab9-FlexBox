@@ -1,0 +1,155 @@
+.flex-container {
+    display: flex;
+}
+.flex-container-column {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left
+}
+
+.justify{
+    text-align: justify
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+.patua-one{
+    font-family: 'Patua One', cursive;
+}
+
+.slabo{
+    font-family: 'Slabo 27px', serif;
+}
+
+.comic-sans{
+    font-family: 'Comic-sans', sans-serif;
+}
+
+.crimson{
+    font-family:'Crimson Text', serif;
+}
+
+.main-text{
+    color:rgb(88, 88, 88);
+}
+
+ul.none{
+    list-style-type: none;
+}
+
+body{
+    margin: 50px 100px 100px 50px;
+}
+
+#mail-link{
+    margin-left: 2px;
+}
+
+#print-link{
+    text-decoration: none;
+}
+
+#top-logo-{
+    flex: 2;
+}
+
+#headline{
+    font-size: 2.0em;
+    margin-bottom: -4px;
+}
+
+#writing-logo{
+    flex: 1;
+    margin-left: 5px;
+    margin-top: -30px;
+}
+
+#delicious{
+    margin-bottom: -30px;
+    font-size: 1.75em;
+}
+
+.link-margins{
+    margin-left: 1px;
+}
+
+#rss-link{
+    margin-left: 5px;
+}
+
+.gray-bar{
+    background-color: rgba(128, 128, 128, 0.329);
+    height: 10px
+}
+.bottom-gray-bar{
+    background-color: rgba(128, 128, 128, 0.329);
+    height: 1px
+}
+
+.subhead{
+    color: gray;
+    size: .7em;
+}
+
+#date{
+    margin-top: -3px
+}
+
+#article-header{
+    justify-content: space-between;
+}
+
+.article-width{
+    max-width: 900px;
+}
+
+#footer{
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+}
+
+#card-list{
+    color: rgb(88, 88, 88);
+    background-image: url("lab-assets/list-bg.png");
+    font-size: 1.5em;
+    max-width: 32.5%;
+    align-items: center;
+    margin: auto;
+}
+
+#bottom-writing{
+    position: absolute;
+    left: 75px;
+    bottom: -10px;
+}
+
+#bottom-logo{
+    position: absolute;
+    top: 4px;
+}
+
+#share-button{
+    max-height: 45px;
+    background-color: rgba(204, 31, 0, 0.719);
+    color: white;
+    justify-content: right;
+    border: 0px;
+}
