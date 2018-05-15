@@ -19,12 +19,14 @@
 .left-header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-self: flex-end;
 }
 
 #subtitle {
-    margin-left: 45px;
-    margin-bottom: 20px;
+    margin-left: 53px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 13px;
 }
 
 #pint {
@@ -33,6 +35,10 @@
 
 .print {
     float: right;
+}
+
+.logo {
+    margin-right: 8px;
 }
 
 #delicious {
