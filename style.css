@@ -1,20 +1,10 @@
 body {
     background-color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-}
-
-img {
-    /* flex-wrap: wrap; */
-    max-width: 100%;
-}
-
-
-h1, h2 {
-    color: black;
 }
 
 section {
@@ -22,7 +12,75 @@ section {
     color: rgb(122, 122, 122);
 }
 
-#main-content p {
+hr {
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: black;
+}
+
+#delicious {
+    font-family: 'Yellowtail';
+}
+
+h2 {
+    font-family: 'Anton';
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+h2 span {
+    font-family: 'Roboto Mono';
+    color: rgb(122, 122, 122);
+    font-size: .21em;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header div {
+    display: inline-block;
+    
+}
+
+#logo {
+    align-self: flex-start;
+   
+}
+
+#icons {
+    align-self: flex-end;
+
+}
+
+#icons-right {
+    margin-left: 9px;
+}
+
+#recipe-title {
+    display: flex;
+    flex: 1 200px;
+    order: 1;
+}
+
+#print {
+    flex: 1 200px;
+    order: 2;
+    align-self: flex-end;
+}
+
+p {
     text-indent: 2em;
 }
 
@@ -32,14 +90,17 @@ section {
 
 #list-items {
     position: absolute;
-    top: 155%;
-    left: 21%;
+    top: 180.5%;
+    left: 12%;
 }
+
 li {
-    line-height: 1.32em;
+    line-height: 1.3em;
     list-style-type: none;
-    /* text-indent: 2em; */
+    font-family: 'Patrick Hand';
+    font-size: 20px;
 }
+
 
 #list-left, #list-right {
     display: inline-block;
