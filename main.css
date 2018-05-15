@@ -115,8 +115,22 @@ div {
     align-content: center;
     margin-bottom: 50px;
 }
+    #footer {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #footer-p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #copyright {
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color: rgb(184, 184, 184);
+    }
     h3 {
         margin: 0px;
+        text-indent: 50px;
     }
     #button2 {
         height: 50px;
@@ -127,6 +141,7 @@ div {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         cursor: pointer;
+        margin-top: 10px;
     }
 
 .hr3 {
@@ -141,15 +156,10 @@ div {
     .hr-icon {
         position: relative;
         top: 3px;
-        color: #ff0000;
     }
 
 
-#footer-icon {
-    position: absolute;
-    left: 50%;
-    bottom: 1
-}
+
 .uppercase {
     text-transform: uppercase;
 }
