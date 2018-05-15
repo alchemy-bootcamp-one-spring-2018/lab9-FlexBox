@@ -1,7 +1,7 @@
-html {
-    background: url(/img/PREVIEW.jpg) no-repeat center center fixed;
+/* html {
+    background: url(img/PREVIEW.jpg) no-repeat;
     background-size: cover;
-}
+} */
 
 body {
     display: grid;
@@ -49,11 +49,9 @@ header {
     margin-left: 8px;
 }
 
-#social-media-icons img {
-    margin: -1px;
+#flickr {
+    margin-left: -2px;
 }
-
-
 
 header h1 {
     margin: -13px 0px 0px 6px;
@@ -72,7 +70,7 @@ header p {
 .horizontal-rule {
     grid-column: 1 / 5;
     grid-row: 4 / 5;
-    
+    color: white;
     background: repeating-linear-gradient(
         -45deg,
         white,
@@ -82,6 +80,16 @@ header p {
     );
 }
 
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+#copyright p {
+    margin: 2px;
+}
 
 
 
@@ -138,6 +146,7 @@ h4 {
 .recipe p {
     text-indent: 2em;
     margin: 2em 0px 2em 0px;
+    font-size: 1.25em;
 }
 
 .ingredients {
@@ -164,19 +173,47 @@ li {
 
 footer {
     grid-area: footer;
+    margin-top: 50px;
 }
 
 .footer-divider {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer-divider>hr {
-    flex: 1;
+#small-logo {
+    margin-top: -35px;
+    background: white;
+    padding: 10px;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.author {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.author h2 {
     margin: 0px;
+    color: black;
 }
 
 button {
+    margin-top: 10px;
     background: #A95B45;
     border: none;
     color: white;
+    padding: 15px 35px 15px 35px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
 }
