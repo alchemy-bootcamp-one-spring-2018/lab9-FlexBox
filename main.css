@@ -20,10 +20,9 @@ div {
     }
     #all-nav {
         margin-top: 32px;
-        margin-left: 502px;
+        margin-left: 526px;
     }
     .social {
-        float: left;
         cursor: pointer;
     }
     #rightsocial1, rightsocial2 {
@@ -61,7 +60,7 @@ div {
 }
     h1 {
         margin: 0px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     h2 {
         margin: 0px;
@@ -151,7 +150,7 @@ div {
         width: 100%;
         position: relative;
         margin: 15px;
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid rgb(199, 196, 196);
     }
     .hr-icon {
         position: relative;
