@@ -1,14 +1,14 @@
 
 body {   
-margin-left: 22%;
-margin-right: 22%;    
+margin: 0px auto;
+max-width: 68%;    
 }
 
 .container-icons {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 40px;
-    border-bottom: 10px solid blue;
+    border-bottom: 10px solid darkgray;
 }
 
 #left-nav {
@@ -19,6 +19,12 @@ margin-right: 22%;
 #left-nav-delicious {
     font-family: 'Yellowtail', cursive;
     font-size: 34px; 
+}
+
+#slogan {
+    font-size: 12px;
+    font-family: 'Anton', sans-serif;
+    color: rgba(83, 77, 56, 0.79)
 }
     
 #paper {
@@ -33,6 +39,7 @@ margin-right: 22%;
 #left-ingredients {
     display: flex block;
     justify-content: flex-start;
+
     font-family: 'Patrick Hand', cursive;
     font-size: 24px;
     color: rgba(83, 77, 56, 0.79);
@@ -64,7 +71,7 @@ ul {
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: sans-serif;
 }
 
 .instructions {
@@ -79,10 +86,11 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 29px;
+    
 }
 
 #footer-bar {
-    border-top: 10px solid blue;
+    border-top: 10px solid darkgray;
     padding:26px;
 }
 
@@ -96,3 +104,7 @@ button {
     font-size: 18px;
 }
 
+share-recipe {
+    display: flex;
+    justify-content: flex-end;
+}
