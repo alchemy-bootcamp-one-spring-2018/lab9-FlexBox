@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    align-content: space-between;
+  }
+.fork-knife {
+    display: flex;
+}
+.delicious {
+    display: flex;
+}
+.catch-phrase {
+    display: flex;
+}
+.social-media {
+    display: flex;
+}
+.gray-bar1 {
+    display: flex;
+}
+.title {
+    display: flex;
+}
+.date {
+    display: flex;
+}
+.choco-pizza {
+    display: flex;
+}
+.body-text {
+    
+}
+.recipe {
+    display: flex;
+}
+.list-bg {
+    position: absolute;
+    z-index: -1;
+}
+.list {
+    position: absolute;
+    font-size: 1.5em;
+    columns: 2;
+    z-index: 1;
+}
+.gray-bar2 {
+    display: flex;
+}
+.footer {
+    display: flex;
+}
+.lady-face {
+    display: flex;
+}
+.vanessa-info {
+    display: flex;
+}
+.name {
+    display: flex;
+}
+.about {
+    display: flex;
+}
+.share {
+    display: flex;
+}
+.food-logo {
+    display: flex;
+}
+.copyright-info {
+    display: flex;
+}
