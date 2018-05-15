@@ -75,37 +75,44 @@ p {
     font-size: .7em;
     font-weight: 200;
     color: #838383;
-    margin-top: 0px
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #print-text {
     float: right;
-    margin-bottom: 20px;   
+    padding-bottom: 10px;   
 }
 
 #print-icon {
     float: right;
-    margin-right: 3px; 
+    margin-right: 3px;
+    padding-top: 2px; 
 }
-
 
 #main-content p {
     text-align: left;
     text-indent: 1.5em;
+    line-height: 1.5em;
 }
 
 #ingredients {
-    background-image: url('images/list-bg.png');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 295px;
+    background-image: url('images/list-bg.png');
     font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.2em;
+    line-height: 1.4em;
     color: #838383;
 }
 
 fieldset {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    border: none;
+    padding-top: 4%;
 }
+
 
 #author-name {
     font-weight: bold;
