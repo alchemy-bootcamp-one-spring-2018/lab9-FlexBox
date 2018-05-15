@@ -3,23 +3,34 @@ body {
     width: 950px;
     margin: 0 auto;
 }
+div {
+    border: 1px solid red;
+}
 .header {
     border: 1px solid black;
     display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
     height: 100px;
+}
+#logo {
+    height: 75px;
+    width: 71px;
+}
+#all-nav {
+    margin-top: 40px;
+    margin-left: 213px;
 }
 .social {
     width: 35px;
+    height: 35px;
 }
-.social2 {
-    width: 35px;
-}
-.social-wrapper2 {
-
+.social-wrapper {
+    padding-left: 10px;
 }
 #delicious {
     font-family: 'Yellowtail', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 #bestfoodblog {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
