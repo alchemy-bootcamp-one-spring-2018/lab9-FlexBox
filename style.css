@@ -20,23 +20,25 @@ body {
 header {
     grid-area: header;
     display: grid;
-    grid-template-columns: 1fr 3fr 6fr;
+    grid-template-columns: 1fr 6fr 12fr;
     grid-template-rows: 30px 50px 50px 16px 1fr;
     
 }
 
-.fas {
+/* .fas {
     background: #333333;
     color: white;
     font-size: 2em;
     text-align: center;
     align-self: center;
-}
+} */
 
 #header-logo {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    /* padding: 15px 10px 10px 10px; */
     height: 50px;
+    /* width: 40px; */
 }
 
 #title {
@@ -162,7 +164,7 @@ h4 {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
     display: flex;
-    justify-content: space-around;
+    
     color: #6e604f;
     background: url(img/list-bg.png);
     background-size: 100% 305px;
@@ -171,13 +173,18 @@ h4 {
 
 ul {
     margin-top: 32px;
-    width: 300px;
+    margin-left: 7%;
+    width: 35%;
     list-style-type: none;
 }
 
 li {
     font-size: 1.41em;
     margin-top: .5px 0px .5px 10px;
+}
+
+input {
+    margin-right: 1em;
 }
 
 footer {

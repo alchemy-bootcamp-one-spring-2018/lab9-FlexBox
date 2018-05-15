@@ -1,8 +1,16 @@
-// const checkbox = getElementbyId('check-0');
-// checkbox.addEventListener('checked', strikethroughItem(), 'true')
+'use strict';
 
-// function strikethroughItem(event) {
+var checkbox = document.querySelector('ul');
+const asdf = document.querySelector('li');
 
-//     item.style.text-decoration = line-through;
-// }
-
+checkbox.addEventListener('change', function() {
+    console.log('event:', event);
+    console.log('event target:', event.target);
+    // if(this.checked) {
+    //     console.log('checked');
+    //     asdf.style['text-decoration'] = 'line-through';
+    // } else {
+    //     console.log('unchecked');
+    //     asdf.style['text-decoration'] = 'none';
+    // }
+});
