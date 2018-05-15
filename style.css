@@ -24,7 +24,7 @@ div, section {
 #recipe {
     background-image: url("lab-assets/list-bg.png");
     background-repeat: no-repeat;
-    font-family: "OldStyle", cursive, sans-serif;
+    font-family: "Comic Sans Bl", cursive, sans-serif;
 }
 
 ul {
@@ -34,13 +34,12 @@ ul {
 hr {
     height: 12px;
     border: none;
-    background: rgb(122, 119, 119);
+    background: rgb(56, 55, 55);
 }
 
-/* this section was taken from https://css-tricks.com/examples/hrs/ */
-/* Single-direction drop shadow */
+
 hr.special {
-    overflow: visible; /* For IE */
+    overflow: visible; 
     padding: 0;
     border: none;
     border-top: medium double #333;
