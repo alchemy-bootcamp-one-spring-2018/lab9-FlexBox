@@ -2,8 +2,6 @@ body {
     margin: 0px auto;
     padding: 50px 128px;
     max-width: 900px;
-
-
 }
 #delicious {
     font-size: 16pt;
@@ -14,7 +12,6 @@ body {
 #silverware {
     float: left;
     display: flex;
-    /* justify-content: flex-start; */
 }
 
 #blog {
@@ -75,6 +72,5 @@ list2 {
 #share {
     float: right;
     background-color: #A95B45;
-    /* width: 100px */
     padding: 20px;
 }
