@@ -1,0 +1,169 @@
+body {
+    width: 720px;
+    margin: auto;
+
+}
+
+/* Section 1 */
+
+#logo {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#blog-name {
+    font-family: 'Yellowtail', cursive;
+    font-size: 28px;
+    text-indent: 5px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: -6px;
+}
+
+#tagline {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    text-indent: 5px;
+    text-align: left;
+    font-size: 10px;
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 25px;
+
+}
+
+#icon-pos {
+    float: right;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.icons {
+    margin-left: 2px;
+}
+
+#rss {
+    margin-left: 10px;
+}
+
+.rule {
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    margin-bottom: 40px;
+}
+
+/* Section 2 */
+
+#recipe-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0;
+    margin:0;
+}
+
+#post-date {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: grey;
+    margin-top: 0;
+    padding: 0;
+}
+
+#print-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: grey;
+    margin-top: 0;
+    padding: 0;
+    float: right;
+}
+
+#print-icon {
+    margin-top: 2px;
+    margin-right: 5px;
+    padding: 0;
+    float: right;
+}
+
+#diabeetus {
+    width: 100%;
+    align-content: center;
+}
+
+#recipe {
+    text-align: justify;
+}
+
+/* Section 4 */
+
+#list {
+background-image: url("/lab-assets/list-bg.png");
+font-family: 'Patrick Hand', cursive;
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+margin-bottom: 40px;
+color: #8F757A;
+}
+
+ul {
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+/* Section 5 */
+
+#van-pic {
+    float: left;
+}
+
+#van-sec {
+    font-size: 16px;
+    margin-left: 90px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 100px;
+    color: grey;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#button {
+    position: relative;
+    float: right;
+    background-color: #BC7058;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+/* Section 6 */
+
+#footer {
+    text-align: center;
+    font-size: 15px;
+    color: grey;    
+}
+
+
+#small-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: -25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
