@@ -1,0 +1,150 @@
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.grey {
+    color: rgb(182, 182, 182);
+    font-family: sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.left-header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+#subtitle {
+    margin-left: 53px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 13px;
+}
+
+#pint {
+    margin-right: 7px;
+}
+
+.print {
+    float: right;
+}
+
+.logo {
+    margin-right: 8px;
+}
+
+#delicious {
+    display: flex;
+    font-family: cursive;
+    font-size: 2.0em;
+    font-weight: bold;
+
+}
+
+.article-heading {
+    font-family: "Oswald", "impact", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+
+}
+
+.choco-pizza-img {
+    margin-top: 30px;
+}
+
+.main-article {
+    margin: 15px 0;
+    line-height: 1.5em;
+    text-indent: 2.0em;
+}
+.recipe {
+    width: 900px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    background-image: url(images/list-bg.png);
+    box-shadow: 0 8px 7px rgb(184, 184, 184);
+    background-repeat: no-repeat;
+    margin-bottom: 35px;
+}
+.left-ingredients {
+    width: 300px;
+}
+
+.right-ingredients {
+    width: 300px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+.left-ingredients input:checked ~ .strike {
+    text-decoration: line-through;
+}
+
+.right-ingredients input:checked ~ .strike {
+    text-decoration: line-through;
+}
+
+hr {
+	border: 6px solid rgb(238, 237, 237);
+}
+
+.footer {
+    display: flex;
+}
+
+.author {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.left-foot {
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.right-foot {
+    align-self: center;
+}
+
+input[type="button"] {
+    font-family: sans-serif;
+    width: 165px;
+    height: 50px;
+    color: white;
+    background-color: rgb(201, 104, 80);
+}
+
+/* https://css-tricks.com/examples/hrs/ */
+hr.logo-line {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: 2px solid rgb(238, 237, 237);
+    text-align: center;
+}
+hr.logo-line:after {
+    content: url(images/small-logo.png);
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.75em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.credits {
+    text-align: center;
+    color: grey;
+    font-size: 0.8em;
+}
