@@ -1,0 +1,76 @@
+body {
+    margin: 0px auto;
+    padding: 50px 128px;
+    max-width: 900px;
+}
+#delicious {
+    font-size: 16pt;
+    font-family: cursive;
+    text-indent: 5pt;
+    margin: 5px;
+}
+#silverware {
+    float: left;
+    display: flex;
+}
+
+#blog {
+    text-indent: 8pt;
+    font-size: 8pt;
+    line-height: .1pt
+}
+
+#socialLinks {
+    display: flex;
+    justify-content: flex-end;
+
+}
+#printer {
+    float: right;
+    margin: top;
+}
+
+#chocoPizza {
+    display: block;
+    margin: 0px auto;
+}
+
+.paragraphs {
+    margin: 0px auto;
+    max-width: 900px;
+ 
+}
+p {
+    
+    text-indent: 20pt;
+    flex-direction: column;
+}
+
+hr {
+    border: 5px double;
+}
+
+ul {
+    list-style: none;
+}
+#ingredients {
+    background-image: url('lab-assets/list-bg.png'); 
+    line-height: 40px;
+    display: flex;
+    max-height: 300px;
+    width: 100%; 
+    justify-content: space-around;    
+    margin: 0px auto;
+}
+list1 {
+    display: flex;
+}
+list2 {
+    display: flex;
+}
+
+#share {
+    float: right;
+    background-color: #A95B45;
+    padding: 20px;
+}
