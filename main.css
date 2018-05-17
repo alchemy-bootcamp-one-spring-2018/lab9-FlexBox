@@ -1,0 +1,142 @@
+
+#topOfPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#wholeLogo {
+    float: left;
+    justify-content: flex-start;
+    text-indent: 4px;
+    width: 300px;
+}
+#logo {
+    margin: 28px 0px 5px ;
+    float: left;
+}
+#logo2 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    margin: 20px 5px 0px 0px;
+}
+#socialMediaButtons {
+       justify-content: flex-end;
+       margin: 40px -2 0 -2;
+       margin-top: 40px;
+}
+.smb{
+    margin-left: -1.5px;
+}
+#choco-Head {
+    text-indent: 0px;
+}
+#print-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: grey;
+    float: right;
+    margin: 0px;
+}
+#print-icon {
+    float: right;
+    margin-top: 2px;
+}
+#food-logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+.slogan{
+    color: grey;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+#rss {
+    margin-left: 6px;
+}
+.hrule {
+    height: 10px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+    margin: 25px;
+}
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+body {
+    margin: auto;
+    width: 850px;
+    text-indent: 40px;
+}
+#choco-pizza {
+    width: 850px;
+    margin-top: 10px;
+}
+#todo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url('lab-assets/list-bg.png');
+    height: 295px;
+}
+#shareButton {
+    background-color: rgb(184, 71, 37);
+    color: white;
+    width: 10em;
+    height: 50px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+ul {
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: 'Patrick Hand';
+    list-style-type: none;
+}
+li {
+    margin: 5px;
+}
+#footer {
+    display: flex;
+    text-indent: 10px;
+    flex-flow: row;
+    height: 70px;
+}
+#shareButton {
+    float: right;
+}
+#aboutV {
+    margin: 1px;
+}
+h3 {
+    margin: 1px;
+}
+#endPage {
+    display: flex;
+    margin-top: 10px;
+}
+.footHr {
+    height: 0px;
+    width: 360px;
+    margin-top: 15px;
+}
+#copy-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+#copy-right p {
+    margin: 3px;
+    text-indent: 2px; 
+    color: lightgray;
+    font-size: 13px
+}
