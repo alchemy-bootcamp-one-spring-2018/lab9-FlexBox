@@ -1,1 +1,4 @@
-//add more functionality in the future
+/*  */
+'use strict';
+
+document.getElementById("list-items").style.backgroundImage = "url('img/list-bg.png')";
