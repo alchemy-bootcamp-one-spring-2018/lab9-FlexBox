@@ -3,7 +3,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     flex-direction: column;
-    align-items: center;
     justify-content: center; 
 }
 
@@ -12,22 +11,12 @@ section {
     color: rgb(122, 122, 122);
 }
 
-hr {
-    height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
-
 img {
     max-width: 100%;
 }
 
 h1, h2 {
     color: black;
-}
-
-#delicious {
-    font-family: 'Yellowtail';
 }
 
 h2 {
@@ -43,6 +32,34 @@ h2 span {
     font-size: .21em;
 }
 
+li {
+    line-height: 1.1em;
+    list-style-type: none;
+    font-family: 'Patrick Hand';
+    font-size: 18px;
+}
+
+button {
+    background-color: #bf6f56;
+    color: white;
+    font-size: 11px;
+    border: none;
+    padding: 16px 26px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#delicious {
+    font-family: 'Yellowtail';
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -52,6 +69,12 @@ h2 span {
 #header div {
     display: inline-block;
     
+}
+
+#top-hr, #bottom-hr {
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
 }
 
 #logo {
@@ -80,28 +103,6 @@ h2 span {
     align-self: flex-end;
 }
 
-p {
-    text-indent: 2em;
-}
-
-#list-paper {
-    position: relative;
-}
-
-#list-items {
-    position: absolute;
-    top: 180.5%;
-    left: 12%;
-}
-
-li {
-    line-height: 1.3em;
-    list-style-type: none;
-    font-family: 'Patrick Hand';
-    font-size: 20px;
-}
-
-
 #list-left, #list-right {
     display: inline-block;
     color: darkslategray;
@@ -109,27 +110,24 @@ li {
 
 #author-info {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10%;
 }
 
 #Vanessa {
     color: darkslategray
 }
-.van {
-    align-self: flex-start;
+
+#van-p {
+    object-fit: contain;
+    width: 80%;
 }
 
-p .van {
-    max-width: 10em;
-}
 
-button {
-    background-color: #bf6f56;
-    align-self: flex-end; 
-}
 
-#footer {
-    display: flex;
-    align-items: center;
-}
+
 
 
